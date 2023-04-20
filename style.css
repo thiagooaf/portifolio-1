@@ -9,6 +9,7 @@ body {
     background-color: #f7f7f7;
 }
 
+
 a {
     text-decoration: none;
     color: #337ab7;
@@ -28,11 +29,47 @@ header {
     position: relative;
 }
 
+/* Foto */
+
+#foto {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: 5px 5px 5px 2px #00000033;
+    opacity: 100%;
+}
+
 header h1 {
     margin: 0;
     font-size: 40px;
     font-weight: bold;
 }
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23527c;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40%;
+
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 11px 20px;
+    transition: all 0.3s ease;
+    background: #141e30;
+    border-radius: 10px;
+}
+
+#menu a:hover {
+    background-color: #003360;
+}
+
 
 header p {
     margin: 10px 0 0;
